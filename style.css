@@ -1,13 +1,16 @@
 body {
-  width: 100%;
-    height: 100%;
-    background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/d0cecbbf-1a20-4b48-b136-fb096af19515/bvlatuR/std/2880x1800/model-3-main-hero-a-desktop) ;
-    background-size: cover;
-    background-attachment: fixed;
+  /* width: 100%; */
+    /* height: 100%; */
+   
   font-family: Arial, Helvetica, sans-serif;
   }
-  .container {
+  .page1 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/model-3-main-hero-a-desktop.page1.jpg ) ;
+    background-size: cover;
     
+    /* background-attachment: fixed; */
   }
   .nav {
     display: flex;
@@ -43,7 +46,8 @@ body {
     color: white;
   }
   h2 {
-  font-size: 60px;
+  font-size: 40px;
+
   }
   footer {
     position:absolute;
@@ -62,4 +66,20 @@ body {
   display: flex;
 justify-content: space-between;
 }
+
   
+  .page2 {
+    background-image: url(images/model-3-hero-a-desktop.page2.2.jpg);
+    /* background-color: red; */
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+  }
+  .page3 {
+    background-image: url(images/lhd-performance-hero-desktop.page3.jpg);
+    background-color: aqua;
+    /* background-image: image-set(); */
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+  }
